@@ -8,17 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var loginViewModel = LoginViewModel()
+    @StateObject var photoEditorViewModel = PhotoEditorViewModel()
+    @AppStorage("log_Status") private var logStatus: Bool = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if logStatus {
+                PhotoEditorView()
+                    .environmentObject(photoEditorViewModel)
+            } else {
+                LoginView()
+                    .environmentObject(loginViewModel)
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+

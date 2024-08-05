@@ -7,43 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B49E0B32C60C46200B0500F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B49E0B22C60C46100B0500F /* ImagePicker.swift */; };
+		7B49E0B52C60CAC600B0500F /* DrawingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B49E0B42C60CAC600B0500F /* DrawingScreen.swift */; };
+		7B49E0B72C60CB1700B0500F /* PhotoEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B49E0B62C60CB1700B0500F /* PhotoEditorViewModel.swift */; };
+		7B49E0B92C60D60800B0500F /* TextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B49E0B82C60D60800B0500F /* TextBox.swift */; };
 		7B6E3F332C5FEBC8002203E6 /* PhotoEditorAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E3F322C5FEBC8002203E6 /* PhotoEditorAppApp.swift */; };
 		7B6E3F352C5FEBC8002203E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E3F342C5FEBC8002203E6 /* ContentView.swift */; };
 		7B6E3F372C5FEBC9002203E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6E3F362C5FEBC9002203E6 /* Assets.xcassets */; };
 		7B6E3F3A2C5FEBC9002203E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6E3F392C5FEBC9002203E6 /* Preview Assets.xcassets */; };
-		7B6E3F442C5FEBCA002203E6 /* PhotoEditorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E3F432C5FEBCA002203E6 /* PhotoEditorAppTests.swift */; };
-		7B6E3F4E2C5FEBCA002203E6 /* PhotoEditorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E3F4D2C5FEBCA002203E6 /* PhotoEditorAppUITests.swift */; };
-		7B6E3F502C5FEBCA002203E6 /* PhotoEditorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E3F4F2C5FEBCA002203E6 /* PhotoEditorAppUITestsLaunchTests.swift */; };
+		7B6E3F6B2C5FFC5B002203E6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7B6E3F6A2C5FFC5B002203E6 /* FirebaseAuth */; };
+		7B6E3F6F2C5FFCD7002203E6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E3F6E2C5FFCD7002203E6 /* LoginView.swift */; };
+		7B6E3F712C600C67002203E6 /* PhotoEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E3F702C600C67002203E6 /* PhotoEditorView.swift */; };
+		7B6E3F772C601DDA002203E6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E3F762C601DDA002203E6 /* LoginViewModel.swift */; };
+		7B6E3F852C604875002203E6 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 7B6E3F842C604875002203E6 /* GoogleSignIn */; };
+		7B6E3F872C604875002203E6 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7B6E3F862C604875002203E6 /* GoogleSignInSwift */; };
+		7B6E3F942C60603E002203E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B6E3F932C60603E002203E6 /* GoogleService-Info.plist */; };
+		7B6E3F972C606347002203E6 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E3F962C606347002203E6 /* LoadingScreen.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7B6E3F402C5FEBCA002203E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B6E3F272C5FEBC8002203E6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B6E3F2E2C5FEBC8002203E6;
-			remoteInfo = PhotoEditorApp;
-		};
-		7B6E3F4A2C5FEBCA002203E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B6E3F272C5FEBC8002203E6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B6E3F2E2C5FEBC8002203E6;
-			remoteInfo = PhotoEditorApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		7B49E0B22C60C46100B0500F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7B49E0B42C60CAC600B0500F /* DrawingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingScreen.swift; sourceTree = "<group>"; };
+		7B49E0B62C60CB1700B0500F /* PhotoEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewModel.swift; sourceTree = "<group>"; };
+		7B49E0B82C60D60800B0500F /* TextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBox.swift; sourceTree = "<group>"; };
 		7B6E3F2F2C5FEBC8002203E6 /* PhotoEditorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoEditorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6E3F322C5FEBC8002203E6 /* PhotoEditorAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorAppApp.swift; sourceTree = "<group>"; };
 		7B6E3F342C5FEBC8002203E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B6E3F362C5FEBC9002203E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B6E3F392C5FEBC9002203E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7B6E3F3F2C5FEBCA002203E6 /* PhotoEditorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoEditorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B6E3F432C5FEBCA002203E6 /* PhotoEditorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorAppTests.swift; sourceTree = "<group>"; };
-		7B6E3F492C5FEBCA002203E6 /* PhotoEditorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoEditorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B6E3F4D2C5FEBCA002203E6 /* PhotoEditorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorAppUITests.swift; sourceTree = "<group>"; };
-		7B6E3F4F2C5FEBCA002203E6 /* PhotoEditorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B6E3F6C2C5FFC73002203E6 /* PhotoEditorApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoEditorApp.entitlements; sourceTree = "<group>"; };
+		7B6E3F6E2C5FFCD7002203E6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7B6E3F702C600C67002203E6 /* PhotoEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorView.swift; sourceTree = "<group>"; };
+		7B6E3F742C601832002203E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7B6E3F762C601DDA002203E6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7B6E3F932C60603E002203E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B6E3F962C606347002203E6 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B6E3F3C2C5FEBCA002203E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B6E3F462C5FEBCA002203E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7B6E3F872C604875002203E6 /* GoogleSignInSwift in Frameworks */,
+				7B6E3F6B2C5FFC5B002203E6 /* FirebaseAuth in Frameworks */,
+				7B6E3F852C604875002203E6 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				7B6E3F312C5FEBC8002203E6 /* PhotoEditorApp */,
-				7B6E3F422C5FEBCA002203E6 /* PhotoEditorAppTests */,
-				7B6E3F4C2C5FEBCA002203E6 /* PhotoEditorAppUITests */,
 				7B6E3F302C5FEBC8002203E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				7B6E3F2F2C5FEBC8002203E6 /* PhotoEditorApp.app */,
-				7B6E3F3F2C5FEBCA002203E6 /* PhotoEditorAppTests.xctest */,
-				7B6E3F492C5FEBCA002203E6 /* PhotoEditorAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +77,14 @@
 		7B6E3F312C5FEBC8002203E6 /* PhotoEditorApp */ = {
 			isa = PBXGroup;
 			children = (
+				7B6E3F742C601832002203E6 /* Info.plist */,
+				7B6E3F6C2C5FFC73002203E6 /* PhotoEditorApp.entitlements */,
+				7B6E3F932C60603E002203E6 /* GoogleService-Info.plist */,
 				7B6E3F322C5FEBC8002203E6 /* PhotoEditorAppApp.swift */,
 				7B6E3F342C5FEBC8002203E6 /* ContentView.swift */,
+				7B6E3F952C606336002203E6 /* CustomElements */,
+				7B6E3F6D2C5FFCCB002203E6 /* Views */,
+				7B6E3F752C601DC7002203E6 /* ViewModel */,
 				7B6E3F362C5FEBC9002203E6 /* Assets.xcassets */,
 				7B6E3F382C5FEBC9002203E6 /* Preview Content */,
 			);
@@ -110,21 +99,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7B6E3F422C5FEBCA002203E6 /* PhotoEditorAppTests */ = {
+		7B6E3F6D2C5FFCCB002203E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7B6E3F432C5FEBCA002203E6 /* PhotoEditorAppTests.swift */,
+				7B6E3F6E2C5FFCD7002203E6 /* LoginView.swift */,
+				7B6E3F702C600C67002203E6 /* PhotoEditorView.swift */,
+				7B49E0B22C60C46100B0500F /* ImagePicker.swift */,
+				7B49E0B42C60CAC600B0500F /* DrawingScreen.swift */,
 			);
-			path = PhotoEditorAppTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		7B6E3F4C2C5FEBCA002203E6 /* PhotoEditorAppUITests */ = {
+		7B6E3F752C601DC7002203E6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				7B6E3F4D2C5FEBCA002203E6 /* PhotoEditorAppUITests.swift */,
-				7B6E3F4F2C5FEBCA002203E6 /* PhotoEditorAppUITestsLaunchTests.swift */,
+				7B6E3F762C601DDA002203E6 /* LoginViewModel.swift */,
+				7B49E0B62C60CB1700B0500F /* PhotoEditorViewModel.swift */,
+				7B49E0B82C60D60800B0500F /* TextBox.swift */,
 			);
-			path = PhotoEditorAppUITests;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B6E3F952C606336002203E6 /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				7B6E3F962C606347002203E6 /* LoadingScreen.swift */,
+			);
+			path = CustomElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,45 +144,14 @@
 			dependencies = (
 			);
 			name = PhotoEditorApp;
+			packageProductDependencies = (
+				7B6E3F6A2C5FFC5B002203E6 /* FirebaseAuth */,
+				7B6E3F842C604875002203E6 /* GoogleSignIn */,
+				7B6E3F862C604875002203E6 /* GoogleSignInSwift */,
+			);
 			productName = PhotoEditorApp;
 			productReference = 7B6E3F2F2C5FEBC8002203E6 /* PhotoEditorApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		7B6E3F3E2C5FEBCA002203E6 /* PhotoEditorAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B6E3F562C5FEBCA002203E6 /* Build configuration list for PBXNativeTarget "PhotoEditorAppTests" */;
-			buildPhases = (
-				7B6E3F3B2C5FEBCA002203E6 /* Sources */,
-				7B6E3F3C2C5FEBCA002203E6 /* Frameworks */,
-				7B6E3F3D2C5FEBCA002203E6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B6E3F412C5FEBCA002203E6 /* PBXTargetDependency */,
-			);
-			name = PhotoEditorAppTests;
-			productName = PhotoEditorAppTests;
-			productReference = 7B6E3F3F2C5FEBCA002203E6 /* PhotoEditorAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7B6E3F482C5FEBCA002203E6 /* PhotoEditorAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B6E3F592C5FEBCA002203E6 /* Build configuration list for PBXNativeTarget "PhotoEditorAppUITests" */;
-			buildPhases = (
-				7B6E3F452C5FEBCA002203E6 /* Sources */,
-				7B6E3F462C5FEBCA002203E6 /* Frameworks */,
-				7B6E3F472C5FEBCA002203E6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B6E3F4B2C5FEBCA002203E6 /* PBXTargetDependency */,
-			);
-			name = PhotoEditorAppUITests;
-			productName = PhotoEditorAppUITests;
-			productReference = 7B6E3F492C5FEBCA002203E6 /* PhotoEditorAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +166,6 @@
 					7B6E3F2E2C5FEBC8002203E6 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					7B6E3F3E2C5FEBCA002203E6 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 7B6E3F2E2C5FEBC8002203E6;
-					};
-					7B6E3F482C5FEBCA002203E6 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 7B6E3F2E2C5FEBC8002203E6;
-					};
 				};
 			};
 			buildConfigurationList = 7B6E3F2A2C5FEBC8002203E6 /* Build configuration list for PBXProject "PhotoEditorApp" */;
@@ -215,13 +177,15 @@
 				Base,
 			);
 			mainGroup = 7B6E3F262C5FEBC8002203E6;
+			packageReferences = (
+				7B6E3F692C5FFC5B002203E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7B6E3F832C604875002203E6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 7B6E3F302C5FEBC8002203E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7B6E3F2E2C5FEBC8002203E6 /* PhotoEditorApp */,
-				7B6E3F3E2C5FEBCA002203E6 /* PhotoEditorAppTests */,
-				7B6E3F482C5FEBCA002203E6 /* PhotoEditorAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,20 +197,7 @@
 			files = (
 				7B6E3F3A2C5FEBC9002203E6 /* Preview Assets.xcassets in Resources */,
 				7B6E3F372C5FEBC9002203E6 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B6E3F3D2C5FEBCA002203E6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B6E3F472C5FEBCA002203E6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7B6E3F942C60603E002203E6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,42 +208,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6E3F712C600C67002203E6 /* PhotoEditorView.swift in Sources */,
+				7B6E3F6F2C5FFCD7002203E6 /* LoginView.swift in Sources */,
+				7B49E0B52C60CAC600B0500F /* DrawingScreen.swift in Sources */,
+				7B6E3F972C606347002203E6 /* LoadingScreen.swift in Sources */,
+				7B49E0B72C60CB1700B0500F /* PhotoEditorViewModel.swift in Sources */,
+				7B49E0B32C60C46200B0500F /* ImagePicker.swift in Sources */,
 				7B6E3F352C5FEBC8002203E6 /* ContentView.swift in Sources */,
+				7B6E3F772C601DDA002203E6 /* LoginViewModel.swift in Sources */,
+				7B49E0B92C60D60800B0500F /* TextBox.swift in Sources */,
 				7B6E3F332C5FEBC8002203E6 /* PhotoEditorAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B6E3F3B2C5FEBCA002203E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B6E3F442C5FEBCA002203E6 /* PhotoEditorAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B6E3F452C5FEBCA002203E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B6E3F502C5FEBCA002203E6 /* PhotoEditorAppUITestsLaunchTests.swift in Sources */,
-				7B6E3F4E2C5FEBCA002203E6 /* PhotoEditorAppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7B6E3F412C5FEBCA002203E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B6E3F2E2C5FEBC8002203E6 /* PhotoEditorApp */;
-			targetProxy = 7B6E3F402C5FEBCA002203E6 /* PBXContainerItemProxy */;
-		};
-		7B6E3F4B2C5FEBCA002203E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B6E3F2E2C5FEBC8002203E6 /* PhotoEditorApp */;
-			targetProxy = 7B6E3F4A2C5FEBCA002203E6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7B6E3F512C5FEBCA002203E6 /* Debug */ = {
@@ -347,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -419,12 +348,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhotoEditorApp/PhotoEditorApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoEditorApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 3DJM2CZRX2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoEditorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,9 +368,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AssA.PhotoEditorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,12 +383,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhotoEditorApp/PhotoEditorApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoEditorApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 3DJM2CZRX2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoEditorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,85 +403,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AssA.PhotoEditorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		7B6E3F572C5FEBCA002203E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.PhotoEditorAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoEditorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoEditorApp";
-			};
-			name = Debug;
-		};
-		7B6E3F582C5FEBCA002203E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.PhotoEditorAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoEditorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoEditorApp";
-			};
-			name = Release;
-		};
-		7B6E3F5A2C5FEBCA002203E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.PhotoEditorAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PhotoEditorApp;
-			};
-			name = Debug;
-		};
-		7B6E3F5B2C5FEBCA002203E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.PhotoEditorAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PhotoEditorApp;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -569,25 +434,44 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B6E3F562C5FEBCA002203E6 /* Build configuration list for PBXNativeTarget "PhotoEditorAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B6E3F572C5FEBCA002203E6 /* Debug */,
-				7B6E3F582C5FEBCA002203E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7B6E3F592C5FEBCA002203E6 /* Build configuration list for PBXNativeTarget "PhotoEditorAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B6E3F5A2C5FEBCA002203E6 /* Debug */,
-				7B6E3F5B2C5FEBCA002203E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B6E3F692C5FFC5B002203E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+		7B6E3F832C604875002203E6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B6E3F6A2C5FFC5B002203E6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B6E3F692C5FFC5B002203E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7B6E3F842C604875002203E6 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B6E3F832C604875002203E6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		7B6E3F862C604875002203E6 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B6E3F832C604875002203E6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7B6E3F272C5FEBC8002203E6 /* Project object */;
 }
